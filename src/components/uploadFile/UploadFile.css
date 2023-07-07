@@ -1,0 +1,23 @@
+.upload-body {
+  margin: 10% 38%;
+  width: 50%;
+  justify-content: center;
+}
+
+.upload-button_container {
+  margin: 20px 0px;
+}
+
+.upload-button {
+  border: 1px solid red;
+  width: 20%;
+  height: 30px;
+  margin-right: 10px;
+  font-size: 15px;
+  outline: none;
+  border: 0;
+  background: rgb(96, 73, 199);
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 3px;
+}

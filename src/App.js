@@ -1,7 +1,7 @@
 import React from 'react';
 
 import UploadFile from './components/uploadFile/UploadFile';
-import NavBar from './components/navbars/NavBar';
+import NavBar from './components/navbar/NavBar';
 
 const App = () => {
   return (

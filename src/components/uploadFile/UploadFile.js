@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import AWS from "aws-sdk";
 
 import "./UploadFile.css";
+import NavBar from '../navbar/NavBar';
 
 function UploadFile() {
   const [selectedFile, setSelectedFile] = useState(null);
@@ -32,6 +33,8 @@ function UploadFile() {
   }
 
   return (
+    <>
+    <NavBar title="Upload a file to AWS S3 and store the letter count to RDS through Lambda"/>
     <div className="upload-body">
       <h1>Please upload a file</h1>
       <div>
@@ -47,6 +50,7 @@ function UploadFile() {
         </button>
       </div>
     </div>
+    </>
   );
 }
 
